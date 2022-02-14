@@ -33,7 +33,7 @@
 export default {
   data() {
     return {
-      activeEl: null,
+      activeEl: 1,
     };
   },
   methods: {
