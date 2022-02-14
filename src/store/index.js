@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-import contactModule from './store/modules/contact.module.js'
+import contactModule from '../store/modules/contact.module.js'
 const store = createStore({
     strict: true,
     modules: {
