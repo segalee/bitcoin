@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import contactService from "./services/contact.service.js";
+import contactService from "../services/contact.service.js";
 
 export default {
   data() {

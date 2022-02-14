@@ -19,8 +19,8 @@
 
 
 <script>
-import userService from "./services/user.service.js";
-import bitcoinService from "./services/bitcoin.service.js";
+import userService from "../services/user.service.js";
+import bitcoinService from "../services/bitcoin.service.js";
 export default {
   data() {
     return {
