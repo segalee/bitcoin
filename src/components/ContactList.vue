@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import ContactPreview from "@/components/ContactPreview.vue";
+import ContactPreview from "./components/ContactPreview.vue";
 import avatar from "../assets/img/avatar.png";
 export default {
   props: {

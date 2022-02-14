@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { utils } from "@/services/utils.service.js";
+import { utils } from "./services/utils.service.js";
 import { LineChart } from "vue-chart-3";
 import {
   Chart,

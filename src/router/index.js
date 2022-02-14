@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomePage from '@/views/HomePage.vue';
-import ContactApp from '@/views/ContactApp.vue';
-import ContactDetails from '@/views/ContactDetails.vue';
-import ContactEdit from '@/views/ContactEdit.vue';
-import Statistics from '@/views/Statistics.vue';
+import HomePage from './views/HomePage.vue';
+import ContactApp from './views/ContactApp.vue';
+import ContactDetails from './views/ContactDetails.vue';
+import ContactEdit from './views/ContactEdit.vue';
+import Statistics from './views/Statistics.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [

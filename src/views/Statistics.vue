@@ -10,8 +10,8 @@
 
 <script>
 // import LineChart from "@/components/Chart.vue";
-import Chart from "@/components/Chart.vue";
-import bitcoinService from "@/services/bitcoin.service.js";
+import Chart from "./components/Chart.vue";
+import bitcoinService from "./services/bitcoin.service.js";
 
 export default {
   components: {

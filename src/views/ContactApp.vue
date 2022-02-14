@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import { eventBus } from "@/services/eventBus.service.js";
-import contactService from "@/services/contact.service.js";
-import ContactList from "@/components/ContactList.vue";
-import ContactFilter from "@/components/ContactFilter.vue";
+import { eventBus } from "./services/eventBus.service.js";
+import contactService from "./services/contact.service.js";
+import ContactList from "./components/ContactList.vue";
+import ContactFilter from "./components/ContactFilter.vue";
 export default {
   components: {
     ContactFilter,

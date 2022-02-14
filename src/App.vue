@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import AppHeader from "@/components/AppHeader.vue";
-import UserMsg from "@/components/UserMsg.vue";
+import AppHeader from "./components/AppHeader.vue";
+import UserMsg from "./components/UserMsg.vue";
 export default {
   components: {
     AppHeader,

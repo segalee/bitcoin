@@ -1,11 +1,11 @@
 <template>
   <section v-if="msg" class="user-msg" :class="msg.type">
-    <p>{{msg.txt}}</p>
+    <p>{{ msg.txt }}</p>
   </section>
 </template>
 
 <script>
-import { eventBus } from '@/services/eventBus.service.js';
+import { eventBus } from "./services/eventBus.service.js";
 export default {
   data() {
     return {
@@ -14,7 +14,7 @@ export default {
     };
   },
   created() {
-    this.removeEventListener = eventBus.on('show-msg', this.showMsg);
+    this.removeEventListener = eventBus.on("show-msg", this.showMsg);
   },
   methods: {
     showMsg(msg) {
