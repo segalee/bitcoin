@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import ContactPreview from "./components/ContactPreview.vue";
+import ContactPreview from "./ContactPreview.vue";
 import avatar from "../assets/img/avatar.png";
 export default {
   props: {
@@ -40,34 +40,46 @@ export default {
 img {
   width: 150px;
 }
-li {
-  width: 100vw;
-  text-align: center;
-  border-bottom: 1px solid #909090;
-  padding: 20px;
-  gap: 20px;
-  flex-wrap: wrap;
-  font-weight: 100;
-}
-a {
-  background-color: #ca3d73;
-  color: #fff;
-  font-family: system-ui;
-  width: 100px;
-  height: 30px;
-  border: none;
-  border-radius: 2px;
-  font-size: 18px;
-  line-height: 1;
-  margin: auto;
-  margin-top: 5px;
-  text-decoration: none;
-  padding: 3px;
-  transition: 0.3s;
-  font-weight: 100;
+ul {
+  > :nth-child(odd) {
+    background-color: #484c6573;
+  }
+  > :nth-child(odd):hover {
+    background-color: #9da5d473;
+  }
+  > :nth-child(even):hover {
+    background-color: #0810389b;
+  }
+  li {
+    width: 100vw;
+    text-align: center;
+    border-bottom: 1px solid #909090;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-weight: 100;
+    transition: 0.2s;
+  }
+  a {
+    background-color: #ca3d73;
+    color: #fff;
+    font-family: system-ui;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 1;
+    margin: auto;
+    margin-top: 5px;
+    text-decoration: none;
+    padding: 3px;
+    transition: 0.3s;
+    font-weight: 100;
 
-  &:hover {
-    background-color: rgb(207, 105, 144);
+    &:hover {
+      background-color: rgb(207, 105, 144);
+    }
   }
 }
 </style>

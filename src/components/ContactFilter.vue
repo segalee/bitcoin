@@ -27,11 +27,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-input {
-  text-align: center;
-  background-color: #181818;
-  height: 2.5rem;
-  color: #575657;
-  font-family: system-ui;
+section {
+  margin-top: 45px;
+  input {
+    text-align: center;
+    background-color: #181818;
+    height: 2.5rem;
+    color: #575657;
+    font-family: system-ui;
+    margin-bottom: 5px;
+  }
 }
 </style>

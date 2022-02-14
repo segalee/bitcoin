@@ -1,6 +1,8 @@
 <template>
   <section>
-    <RouterLink to="/contact/edit">Add a new contact</RouterLink>
+    <div>
+      <RouterLink to="/contact/edit">+ Add a new contact</RouterLink>
+    </div>
     <ContactFilter @set-filter="setFilter" />
     <ContactList :contacts="contactsToShow" @remove="removeContact" />
   </section>
@@ -62,8 +64,9 @@ export default {
 
 <style lang="scss" scoped>
 a {
-  background-color: #c95f88;
-  color: #000;
+  // background-color: #5c0627;
+  background-color: #848eb9;
+  color: rgb(42, 39, 70);
   font-family: system-ui;
   font-weight: 500;
   top: 85px;
@@ -72,5 +75,9 @@ a {
   text-decoration: none;
   padding: 3px;
   transition: 0.3s;
+  &:hover {
+    // background-color: #742342;
+    background-color: #5d658f;
+  }
 }
 </style>

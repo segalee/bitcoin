@@ -17,6 +17,7 @@ export default {
 <style lang="scss" scoped>
 section.contact-preview {
   text-align: left;
+  width: 200px;
 }
 .bold {
   font-weight: 500;
